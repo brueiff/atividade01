@@ -1,2 +1,6 @@
-<?php
-echo "praticando php";
+
+    <?php 
+    echo"boa noite";
+    ?>
+</body>
+</html>
