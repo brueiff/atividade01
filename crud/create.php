@@ -8,7 +8,7 @@ try {
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   $sql = "INSERT INTO escola (aluno, disciplina, nota1, nota2) 
-  VALUES ('maria ', 'historia', '8','9')";
+  VALUES ('joao ', 'matematica', '8','10')";
   // use exec() because no results are returned
   $conn->exec($sql);
   echo "aluno cadastrado";
